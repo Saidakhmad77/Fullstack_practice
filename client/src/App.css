@@ -1,0 +1,71 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; /* Sleek and modern font */
+  background-color: #f0f2f5; /* Soft gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff; /* White card-like background */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #2d3436; /* Dark gray for heading */
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #636e72; /* Medium gray for general text */
+}
+
+/* Colorful gradients for specific data */
+p:nth-child(2) {
+  font-weight: bold;
+  background: linear-gradient(90deg, #74b9ff, #a29bfe);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+p:nth-child(3) {
+  background: linear-gradient(90deg, #55efc4, #00b894);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+p:nth-child(4) {
+  background: linear-gradient(90deg, #fdcb6e, #e17055);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
